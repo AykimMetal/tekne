@@ -1,0 +1,57 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F8-905D-C007D9016BA3}") = "BoatDesigner.Entities", "BoatDesigner.Entities\BoatDesigner.Entities.vbproj", "{1A2B3C4D-5E6F-7G8H-9I0J-1K2L3M4N5O6P}"
+EndProject
+Project("{F184B08F-C81C-45F8-905D-C007D9016BA3}") = "BoatDesigner.Data", "BoatDesigner.Data\BoatDesigner.Data.vbproj", "{2B3C4D5E-6F7G-8H9I-0J1K-2L3M4N5O6P7Q}"
+EndProject
+Project("{F184B08F-C81C-45F8-905D-C007D9016BA3}") = "BoatDesigner.Business", "BoatDesigner.Business\BoatDesigner.Business.vbproj", "{3C4D5E6F-7G8H-9I0J-1K2L-3M4N5O6P7Q8R}"
+EndProject
+Project("{F184B08F-C81C-45F8-905D-C007D9016BA3}") = "BoatDesigner.CAD", "BoatDesigner.CAD\BoatDesigner.CAD.vbproj", "{4D5E6F7G-8H9I-0J1K-2L3M-4N5O6P7Q8R9S}"
+EndProject
+Project("{F184B08F-C81C-45F8-905D-C007D9016BA3}") = "BoatDesigner.CAM", "BoatDesigner.CAM\BoatDesigner.CAM.vbproj", "{5E6F7G8H-9I0J-1K2L-3M4N-5O6P7Q8R9S0T}"
+EndProject
+Project("{F184B08F-C81C-45F8-905D-C007D9016BA3}") = "BoatDesigner.Reporting", "BoatDesigner.Reporting\BoatDesigner.Reporting.vbproj", "{6F7G8H9I-0J1K-2L3M-4N5O-6P7Q8R9S0T1U}"
+EndProject
+Project("{F184B08F-C81C-45F8-905D-C007D9016BA3}") = "BoatDesigner.UI", "BoatDesigner.UI\BoatDesigner.UI.vbproj", "{7G8H9I0J-1K2L-3M4N-5O6P-7Q8R9S0T1U2V}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A2B3C4D-5E6F-7G8H-9I0J-1K2L3M4N5O6P}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A2B3C4D-5E6F-7G8H-9I0J-1K2L3M4N5O6P}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A2B3C4D-5E6F-7G8H-9I0J-1K2L3M4N5O6P}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A2B3C4D-5E6F-7G8H-9I0J-1K2L3M4N5O6P}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B3C4D5E-6F7G-8H9I-0J1K-2L3M4N5O6P7Q}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B3C4D5E-6F7G-8H9I-0J1K-2L3M4N5O6P7Q}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B3C4D5E-6F7G-8H9I-0J1K-2L3M4N5O6P7Q}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B3C4D5E-6F7G-8H9I-0J1K-2L3M4N5O6P7Q}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C4D5E6F-7G8H-9I0J-1K2L-3M4N5O6P7Q8R}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C4D5E6F-7G8H-9I0J-1K2L-3M4N5O6P7Q8R}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C4D5E6F-7G8H-9I0J-1K2L-3M4N5O6P7Q8R}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C4D5E6F-7G8H-9I0J-1K2L-3M4N5O6P7Q8R}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D5E6F7G-8H9I-0J1K-2L3M-4N5O6P7Q8R9S}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D5E6F7G-8H9I-0J1K-2L3M-4N5O6P7Q8R9S}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D5E6F7G-8H9I-0J1K-2L3M-4N5O6P7Q8R9S}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D5E6F7G-8H9I-0J1K-2L3M-4N5O6P7Q8R9S}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E6F7G8H-9I0J-1K2L-3M4N-5O6P7Q8R9S0T}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E6F7G8H-9I0J-1K2L-3M4N-5O6P7Q8R9S0T}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E6F7G8H-9I0J-1K2L-3M4N-5O6P7Q8R9S0T}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E6F7G8H-9I0J-1K2L-3M4N-5O6P7Q8R9S0T}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F7G8H9I-0J1K-2L3M-4N5O-6P7Q8R9S0T1U}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F7G8H9I-0J1K-2L3M-4N5O-6P7Q8R9S0T1U}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F7G8H9I-0J1K-2L3M-4N5O-6P7Q8R9S0T1U}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F7G8H9I-0J1K-2L3M-4N5O-6P7Q8R9S0T1U}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7G8H9I0J-1K2L-3M4N-5O6P-7Q8R9S0T1U2V}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7G8H9I0J-1K2L-3M4N-5O6P-7Q8R9S0T1U2V}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7G8H9I0J-1K2L-3M4N-5O6P-7Q8R9S0T1U2V}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7G8H9I0J-1K2L-3M4N-5O6P-7Q8R9S0T1U2V}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
