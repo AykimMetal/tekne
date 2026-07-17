@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4D5E6F7G-8H9I-0J1K-2L3M-4N5O6P7Q8R9S}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>BoatDesigner.CAD</RootNamespace>
+    <AssemblyName>BoatDesigner.CAD</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>BoatDesigner.CAD.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42020,42021,42022,42032,42036,42023,42024,42025</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>BoatDesigner.CAD.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42020,42021,42022,42032,42036,42023,42024,42025</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BoatDesigner.Entities\BoatDesigner.Entities.vbproj">
+      <Project>{1A2B3C4D-5E6F-7G8H-9I0J-1K2L3M4N5O6P}</Project>
+      <Name>BoatDesigner.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Point2D.vb" />
+    <Compile Include="Point3D.vb" />
+    <Compile Include="ViewType.vb" />
+    <Compile Include="TransformMatrix.vb" />
+    <Compile Include="GeometryCalculator.vb" />
+    <Compile Include="DrawingUtils.vb" />
+    <Compile Include="ViewManager.vb" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
